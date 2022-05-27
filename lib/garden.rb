@@ -1,5 +1,5 @@
 # Something is missing here
-
+require_relative './plant'
 class Garden
   attr_accessor :name
 
@@ -23,3 +23,4 @@ cucumber = Plant.new(name: 'Cucumber')
 cucumber.garden = lawn
 
 p lawn.plants
+ 
